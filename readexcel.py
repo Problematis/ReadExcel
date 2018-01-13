@@ -31,5 +31,5 @@ def open_file(path):
  
 #----------------------------------------------------------------------
 if __name__ == "__main__":
-    path = "test.xls"
+    path = "mockdata.xls"
     open_file(path)
