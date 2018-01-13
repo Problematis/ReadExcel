@@ -8,7 +8,7 @@ def open_file(path):
     book = xlrd.open_workbook(path)
  
     # print number of sheets
-    print book.nsheets
+    print("Number of sheets in the Excel file ", ; print book.nsheets
  
     # print sheet names
     print book.sheet_names()
